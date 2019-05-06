@@ -1,0 +1,23 @@
+#img-div {
+  max-width: 500px;
+  max-height: 500px;
+  position: relative;
+}
+
+#img {
+  height: 300px;
+  width: 300px;
+  position: absolute;
+  margin-right: 5px;
+
+#img-caption {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 300px) {
+  #img-div {
+    height: 400px;
+    width: 400px;
+  }
+}
