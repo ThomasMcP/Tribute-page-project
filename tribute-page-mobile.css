@@ -1,0 +1,33 @@
+@media (max-width: 560px) {
+  #image {
+    height: 50%;
+    width: 50%;
+  }
+
+  #menu-bar {
+    display: flex;
+    max-height: 20vw;
+  }
+
+
+  ul {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  li {
+    display: inline-flex;
+    max-height: 20px;
+    width: 30px;
+  }
+
+  #tribute-info {
+    font-size: 20px;
+  }
+
+  #title {
+    font-size: 50px;
+  }
+
+
+}
